@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Link Felix</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 16px;
+      color: white;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Profil TikTok dan ZEPETO FELIX GANTENG AND KYUT!</h1>
+  <button class="button" onclick="openTikTokProfile()">Lihat Profil TikTok</button>
+  <button class="button" onclick="openZepetoProfile()">Lihat Profil ZEPETO</button>
+
+  <script>
+    const tikTokProfileLink = "https://www.tiktok.com/@anakkbaikkl?_t=8rtaQfU6OF0&_r=1";
+
+    const zepetoProfileLink = "https://web.zepeto.me/share/user/profile/peler_bau?referrer=gakusahberisik";
+
+    function openTikTokProfile() {
+      window.open(tikTokProfileLink, "_blank");
+    }
+
+    function openZepetoProfile() {
+      window.open(zepetoProfileLink, "_blank");
+    }
+  </script>
+</body>
+</html>
